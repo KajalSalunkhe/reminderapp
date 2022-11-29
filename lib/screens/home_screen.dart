@@ -69,7 +69,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 itemBuilder: (context, index) {
                   return ListTile(
                     title: Text(
-                      "${tasks[index].title}",
+                      "${tasks[index].title} some",
                     ),
                     subtitle: Text(
                       formatDate(tasks[index].scheduleDate!),
