@@ -33,7 +33,7 @@ class _HomeScreenState extends State<HomeScreen> {
   //   scheduleDate: DateTime.now(),
   // )
   // define var
-  
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -69,7 +69,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 itemBuilder: (context, index) {
                   return ListTile(
                     title: Text(
-                      tasks[index].title.toString(),
+                      "${tasks[index].title}",
                     ),
                     subtitle: Text(
                       formatDate(tasks[index].scheduleDate!),
